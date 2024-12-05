@@ -1,0 +1,130 @@
+</html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mente do Palhaço</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <style>
+
+        body{
+ 
+         background-image: url(images/wallpaper-azul-papel-de-parede-azul-fundo-14.jpg);
+         
+        }
+        .conteiner{
+
+            width: auto;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: space-around;
+
+        }
+        .elemento{
+
+            width: auto;
+            height: 60px;
+
+        }
+        .elemento1{
+
+            width: auto;
+            height: 300px;
+
+        }
+        .elemento2{
+
+            width: auto;
+            height: 70px;
+
+        }
+        #quadrado{
+
+         width: auto;
+         height: 1px;
+         background-color: rgba(0, 255, 213, 0.884);
+ 
+        }
+ 
+     </style>
+
+</head>
+<body>
+
+    <header>
+        <nav class="menu-nav">
+            <img class="menu-logo" src="./images/20191002_piada_haha.jpg" alt="Logo">
+            <ul>
+                <li><a class="links negrito" href="">Home</a></li>
+                <li><a class="links negrito" href="">Sobre</a></li>
+                <li><a class="links negrito" href="">Contatos</a></li>
+            </ul>
+            <ul>
+                <li><span class="material-symbols-outlined">menu</span></li>
+                <li><span class="material-symbols-outlined">search</span></li>
+            </ul>
+        </nav>
+    </header>
+
+     <div id="quadrado"></div>
+
+    <div class="conteiner">
+       <div class="elemento1">
+         <section id="home">
+            <div class="elemento"></div>
+             <h1 class="links negrito">PI das Engenharias</h1>
+             <p>Este relatório detalha o desenvolvimento de um carrinho controlado por Arduino com sensores, um projeto prático que consolida os conhecimentos adquiridos durante o curso de robótica educacional. O uso do Arduino em robótica educacional tem se destacado, permitindo a integração de microcontroladores, sensores ultrassônicos e motores para a realização de tarefas autônomas, abrindo portas para a exploração de conceitos complexos de ciência da computação, eletrônica e mecânica. O projeto, inspirado em pesquisas como a de López et al. (2018), que demonstram a eficácia do Arduino em navegação, visa construir um carrinho autônomo capaz de navegar em um ambiente controlado, evitando obstáculos e demonstrando a aplicação prática dos conceitos de programação, eletrônica e mecânica.</p> 
+             <p>O objetivo deste projeto é criar um carrinho robótico capaz de se locomover de forma independente, utilizando sensores ultrassônicos para detectar obstáculos no ambiente e realizar manobras para evitá-los.</p>
+            </div>
+         </section>
+        </div>
+        <div class="elemento1">
+            <section id="sobre">
+                <h2 class="links negrito">Sobre</h2>
+                <p>Este site foi criado com objetivo de apresentar o projeto de semestre.</p>
+                <div class="elemento"></div>
+                 <p class="link negrito">Componentes do PI:</p>
+                 <p>Rodas do carro</p>
+                 <p>Roda bobalidade</p>
+                 <p>Chassis do carro em acrílico transparente ou preto</p>
+                 <p>Motores DC com redução</p>
+                 <p>Fixadores</p>
+                 <p>Suporte para quatro pilhas AA</p>
+                 <p>Suporte sensor</p>
+                 <p>Placa UNO R3 Smd</p>
+                 <p>Micro Servo Motor 9g SG90</p>
+                 <p>Sensor Ultrassônico HC-SR04</p>
+                 <p>Controlador de Motor L298N (ponte H)</p>
+                 <p>Jumpers 10 Cm Macho x Macho, Macho x Fêmea, Fêmea x Fêmea</p>
+                </div>
+                <h4>.</h4>
+                <a class="link negrito"> Circuito</a>
+                <img src="./images/Captura de tela 2024-11-29 161720.png"
+            </section>
+        </div>
+        <h4>.</h4>
+        <div class="elemento2">
+         <section id="contatos">
+         <h3 class="links negrito">Conclusão</h3>
+         <p>Por fim, o projeto terminou em uma falha por ser incapaz de  rodar da maneira como era esperado, durante o processo de  desenvolvimento do projeto de carrinho de Arduino com sensor foi repleto por de desafios. Um dos principais obstáculos encontrados foi a presença de erros no código do Arduino, que exigiram persistência e dedicação e análise.</p>
+         <p>Outro desafio significativo foi a montagem e encaixe dos diversos componentes do carrinho para que funcionassem de forma adequada. Essa etapa exige um planejamento  e a escolha de componentes compatíveis, garantindo o funcionamento correto do sistema.</p>
+         <h4>.</h4>
+         <a class="link negrito">Referêcias usadas</a>
+         <p>López, J. A., et al. (2018). "Diseño e implementación de un robot móvil autónomo para la enseñanza de la robótica." Revista Iberoamericana de Automática e Informática Industrial, 15(1), 1-10.</p>
+         <p>Vídeos do canal Algoback no YouTube. Os vídeos do canal Algoback forneceram um guia valioso para o desenvolvimento do projeto, oferecendo explicações claras e detalhadas sobre os conceitos de robótica e programação com Arduino.</p>
+         <h4>.</h4>
+         <a class="links negrito">Contatos</a>
+         <a>Patrick: (11) 99236-8149</a>
+         <a>João: (11) 91050-1525</a>
+         <h5>.</h5>
+         </section>
+        </div>
+    </div>
+
+</body>
+</html>
